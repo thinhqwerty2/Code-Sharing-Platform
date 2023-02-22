@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<form action="[value]" method="post">
+    <p>First Name:</p>
+    <input type="text" name="firstName">
+    <p>Last Name:</p>
+    <input type="text" name="lastName">
+    <p>Password:</p>
+    <input type="password" name="password">
+    <br>
+    <label>
+    <input type="radio" name="language" value="english"> English
+    </label>
+    <input type="radio" name="language" value="spanish"> Spanish
+    <br>
+    <input type="checkbox" name="technique" value="computer">I have a computer
+    <br>
+    <input type="checkbox" name="technique" value="phone">I have a phone
+    <br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

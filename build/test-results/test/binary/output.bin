@@ -1,0 +1,547 @@
+[1;31m
+Start test 1[0m
+	[0;34m
+4[0m[0;34m  .   ____          _            __ _ _
+5[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+6[0m[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+7[0m[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+6[0m[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+5[0m[0;34m =========|_|==============|___/=/_/_/_/
+7[0m[0;34m :: Spring Boot ::                (v2.5.6)
+[0m[0;34m
+á[0m[0;34m2023-02-22 10:01:04.267  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.5 on Wuyern with PID 1604 (started by thinh in D:\Spring\Code-Sharing-Platform\Code Sharing Platform\task)
+∞[0m[0;34m2023-02-22 10:01:04.272  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+´[0m[0;34m2023-02-22 10:01:06.286  INFO 1604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+≈[0m[0;34m2023-02-22 10:01:06.389  INFO 1604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+ú[0m[0;34m2023-02-22 10:01:07.651  INFO 1604 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+â[0m[0;34m2023-02-22 10:01:07.677  INFO 1604 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ü[0m[0;34m2023-02-22 10:01:07.677  INFO 1604 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+¢[0m[0;34m2023-02-22 10:01:07.921  INFO 1604 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+Ø[0m[0;34m2023-02-22 10:01:07.921  INFO 1604 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3529 ms
+ä[0m[0;34m2023-02-22 10:01:08.196  INFO 1604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+è[0m[0;34m2023-02-22 10:01:08.650  INFO 1604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ø[0m[0;34m2023-02-22 10:01:08.678  INFO 1604 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../snippets'
+©[0m[0;34m2023-02-22 10:01:09.086  INFO 1604 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+¢[0m[0;34m2023-02-22 10:01:09.213  INFO 1604 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+®[0m[0;34m2023-02-22 10:01:09.559  INFO 1604 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+©[0m[0;34m2023-02-22 10:01:09.816  INFO 1604 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+„[0m[0;34m2023-02-22 10:01:11.039  INFO 1604 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+≥[0m[0;34m2023-02-22 10:01:11.052  INFO 1604 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ß[0m[0;34m2023-02-22 10:01:11.608  WARN 1604 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+•[0m[0;34m2023-02-22 10:01:12.945  INFO 1604 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+´[0m[0;34m2023-02-22 10:01:13.055  INFO 1604 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+≥[0m[0;34m2023-02-22 10:01:13.088  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 9.608 seconds (JVM running for 11.5)
+•[0;34m2023-02-22 10:01:13.706  INFO 1604 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ò[0m[0;34m2023-02-22 10:01:13.706  INFO 1604 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ê[0m[0;34m2023-02-22 10:01:13.712  INFO 1604 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+[0m[1;31m
+Start test 2[0m
+[1;31m
+Start test 3[0m
+ [0;34mCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.471840200
+‘[0m[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.486839300
+”[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.487838700
+[1;31m
+Start test 4[0m
+–[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.524832400
+”[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.525831700
+[1;31m
+Start test 5[0m
+[1;31m
+Start test 6[0m
+[1;31m
+Start test 7[0m
+[1;31m
+Start test 8[0m
+ [0;34mCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.896774500
+‘[0m[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.897773800
+–[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.898773
+[1;31m
+Start test 9[0m
+–[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.915771500
+”[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.916772100
+[1;31m
+Start test 10[0m
+»[0m[0;34mCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.931769700
+Œ[0m[0;34mbeforeCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.932769200
+Õ[0m[0;34mafterCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.932769200
+[1;31m
+Start test 11[0m
+ [0;34mbeforeCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.946766400
+Õ[0m[0;34mafterCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:14.947766800
+[1;31m
+Start test 12[0m
+[1;31m
+Start test 13[0m
+[1;31m
+Start test 14[0m
+[1;31m
+Start test 15[0m
+[1;31m
+Start test 16[0m
+[1;31m
+Start test 17[0m
+[1;31m
+Start test 18[0m
+[1;31m
+Start test 19[0m
+[1;31m
+Start test 20[0m
+[1;31m
+Start test 21[0m
+[1;31m
+Start test 22[0m
+[1;31m
+Start test 23[0m
+[1;31m
+Start test 24[0m
+[1;31m
+Start test 25[0m
+[1;31m
+Start test 26[0m
+ [0;34mCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.188729100
+‘[0m[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.189730400
+”[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.190729600
+[1;31m
+Start test 27[0m
+–[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.214724100
+”[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.215723800
+[1;31m
+Start test 28[0m
+»[0m[0;34mCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.305709500
+Œ[0m[0;34mbeforeCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.305709500
+Õ[0m[0;34mafterCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.305709500
+[1;31m
+Start test 29[0m
+À[0m[0;34mbeforeCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.321706
+ [0m[0;34mafterCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:15.321706
+[1;31m
+Start test 30[0m
+¬[0m[0;34mCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.339705200
+»[0m[0;34mbeforeCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.340702900
+«[0m[0;34mafterCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.340702900
+[1;31m
+Start test 31[0m
+¡[0;34mbeforeCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.379698
+«[0m[0;34mafterCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.380697700
+[1;31m
+Start test 32[0m
+ª[0;34mCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.400695
+»[0m[0;34mbeforeCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.402694300
+«[0m[0;34mafterCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.402694300
+[1;31m
+Start test 33[0m
+≈[0m[0;34mbeforeCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.420691
+ƒ[0m[0;34mafterCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.420691
+[1;31m
+Start test 34[0m
+¬[0m[0;34mCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.436689700
+»[0m[0;34mbeforeCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.436689700
+«[0m[0;34mafterCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.437688700
+[1;31m
+Start test 35[0m
+ƒ[0;34mbeforeCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.449686400
+«[0m[0;34mafterCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.450686700
+[1;31m
+Start test 36[0m
+¬[0m[0;34mCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.468684600
+»[0m[0;34mbeforeCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.468684600
+«[0m[0;34mafterCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.469683900
+[1;31m
+Start test 37[0m
+»[0m[0;34mbeforeCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.481682400
+«[0m[0;34mafterCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.482681100
+[1;31m
+Start test 38[0m
+¬[0m[0;34mCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.496679900
+»[0m[0;34mbeforeCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.496679900
+«[0m[0;34mafterCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.496679900
+[1;31m
+Start test 39[0m
+»[0m[0;34mbeforeCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.508677800
+«[0m[0;34mafterCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.508677800
+[1;31m
+Start test 40[0m
+æ[0;34mCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.520676100
+»[0m[0;34mbeforeCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.520676100
+«[0m[0;34mafterCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.520676100
+[1;31m
+Start test 41[0m
+ƒ[0;34mbeforeCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.532673600
+«[0m[0;34mafterCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.533674300
+[1;31m
+Start test 42[0m
+æ[0;34mCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.546671400
+»[0m[0;34mbeforeCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.546671400
+«[0m[0;34mafterCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.547671400
+[1;31m
+Start test 43[0m
+ƒ[0;34mbeforeCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.556669900
+«[0m[0;34mafterCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.557671400
+[1;31m
+Start test 44[0m
+ø[0;34mCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.568668900
+…[0m[0;34mbeforeCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.569667700
+»[0m[0;34mafterCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.569667700
+[1;31m
+Start test 45[0m
+¬[0;34mbeforeCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.581666
+»[0m[0;34mafterCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.582666200
+[1;31m
+Start test 46[0m
+ø[0;34mCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.593665800
+…[0m[0;34mbeforeCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.594664100
+»[0m[0;34mafterCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.594664100
+[1;31m
+Start test 47[0m
+≈[0;34mbeforeCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.605662500
+≈[0m[0;34mafterCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.606663
+[1;31m
+Start test 48[0m
+ø[0;34mCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.617661600
+…[0m[0;34mbeforeCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.618663500
+»[0m[0;34mafterCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.618663500
+[1;31m
+Start test 49[0m
+≈[0;34mbeforeCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.629659900
+»[0m[0;34mafterCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.630658400
+[1;31m
+Start test 50[0m
+√[0m[0;34mCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.641657400
+…[0m[0;34mbeforeCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.641657400
+»[0m[0;34mafterCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.641657400
+[1;31m
+Start test 51[0m
+¬[0;34mbeforeCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.654654
+»[0m[0;34mafterCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.655655700
+[1;31m
+Start test 52[0m
+√[0m[0;34mCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.672652400
+…[0m[0;34mbeforeCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.672652400
+»[0m[0;34mafterCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.672652400
+[1;31m
+Start test 53[0m
+≈[0;34mbeforeCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.685652600
+»[0m[0;34mafterCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:15.685652600
+[1;31m
+Start test 54[0m
+[1;31m
+Start test 55[0m
+[1;31m
+Start test 56[0m
+´[0;34m2023-02-22 10:01:16.316  INFO 1604 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+î[0m[0;34m2023-02-22 10:01:16.319  INFO 1604 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+í[0m[0;34m2023-02-22 10:01:16.572  INFO 1604 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+	[0;34m
+4[0m[0;34m  .   ____          _            __ _ _
+5[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+6[0m[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+7[0m[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+6[0m[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+5[0m[0;34m =========|_|==============|___/=/_/_/_/
+7[0m[0;34m :: Spring Boot ::                (v2.5.6)
+[0m[0;34m
+á[0m[0;34m2023-02-22 10:01:26.709  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.5 on Wuyern with PID 1604 (started by thinh in D:\Spring\Code-Sharing-Platform\Code Sharing Platform\task)
+∞[0m[0;34m2023-02-22 10:01:26.709  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+´[0m[0;34m2023-02-22 10:01:27.344  INFO 1604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+≈[0m[0;34m2023-02-22 10:01:27.360  INFO 1604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+ú[0m[0;34m2023-02-22 10:01:27.664  INFO 1604 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+â[0m[0;34m2023-02-22 10:01:27.666  INFO 1604 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ü[0m[0;34m2023-02-22 10:01:27.672  INFO 1604 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+¢[0m[0;34m2023-02-22 10:01:27.769  INFO 1604 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+Ø[0m[0;34m2023-02-22 10:01:27.771  INFO 1604 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1055 ms
+ä[0m[0;34m2023-02-22 10:01:27.850  INFO 1604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+è[0m[0;34m2023-02-22 10:01:27.870  INFO 1604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+ø[0m[0;34m2023-02-22 10:01:27.870  INFO 1604 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../snippets'
+©[0m[0;34m2023-02-22 10:01:27.943  INFO 1604 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+©[0m[0;34m2023-02-22 10:01:27.954  INFO 1604 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+„[0m[0;34m2023-02-22 10:01:28.070  INFO 1604 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+≥[0m[0;34m2023-02-22 10:01:28.071  INFO 1604 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ß[0m[0;34m2023-02-22 10:01:28.174  WARN 1604 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+•[0m[0;34m2023-02-22 10:01:28.507  INFO 1604 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+´[0m[0;34m2023-02-22 10:01:28.534  INFO 1604 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+¥[0m[0;34m2023-02-22 10:01:28.548  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 1.913 seconds (JVM running for 26.96)
+[0m[1;31m
+Start test 57[0m
+•[0;34m2023-02-22 10:01:28.561  INFO 1604 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ò[0m[0;34m2023-02-22 10:01:28.561  INFO 1604 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ê[0m[0;34m2023-02-22 10:01:28.564  INFO 1604 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Œ[0m[0;34mCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.575875100
+‘[0m[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.575875100
+”[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.576875700
+[1;31m
+Start test 58[0m
+–[0;34mbeforeCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.594871600
+”[0m[0;34mafterCodeSnippet{id='530a0c5a-4e39-4b50-be58-62bc8854f379', code='public static void ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.594871600
+[1;31m
+Start test 59[0m
+ƒ[0;34mCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.617868600
+Œ[0m[0;34mbeforeCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.618868600
+Õ[0m[0;34mafterCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.618868600
+[1;31m
+Start test 60[0m
+ [0;34mbeforeCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.636866300
+Õ[0m[0;34mafterCodeSnippet{id='b0a2f572-7365-43d4-9816-3138786db626', code='class Code { ...', date='2023/02/22 10:01:14', time=0, views=0, expireDate='2023/02/22 10:01:14'}2023-02-22T10:01:28.637866100
+[1;31m
+Start test 61[0m
+æ[0;34mCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.652864200
+»[0m[0;34mbeforeCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.653863700
+«[0m[0;34mafterCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.653863700
+[1;31m
+Start test 62[0m
+ƒ[0;34mbeforeCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.669860800
+«[0m[0;34mafterCodeSnippet{id='d705c4ed-2403-45af-9470-db219cb8a9b2', code='Snippet #3', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.669860800
+[1;31m
+Start test 63[0m
+æ[0;34mCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.684857100
+»[0m[0;34mbeforeCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.685856900
+«[0m[0;34mafterCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.685856900
+[1;31m
+Start test 64[0m
+ƒ[0;34mbeforeCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.704853900
+«[0m[0;34mafterCodeSnippet{id='d0814725-76fb-42bf-8840-222d569dd650', code='Snippet #4', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.705853900
+[1;31m
+Start test 65[0m
+æ[0;34mCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.722851300
+»[0m[0;34mbeforeCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.723850900
+«[0m[0;34mafterCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.723850900
+[1;31m
+Start test 66[0m
+ƒ[0;34mbeforeCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.739848400
+«[0m[0;34mafterCodeSnippet{id='5b1d6aa0-9cb5-490a-b932-5c53778d232c', code='Snippet #5', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.741848700
+[1;31m
+Start test 67[0m
+¬[0m[0;34mCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.753849200
+»[0m[0;34mbeforeCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.753849200
+«[0m[0;34mafterCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.753849200
+[1;31m
+Start test 68[0m
+»[0m[0;34mbeforeCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.763844500
+«[0m[0;34mafterCodeSnippet{id='7a003f71-3b5e-4e42-83f8-3f773928eeed', code='Snippet #6', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.763844500
+[1;31m
+Start test 69[0m
+¬[0m[0;34mCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.776843100
+»[0m[0;34mbeforeCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.776843100
+«[0m[0;34mafterCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.777842500
+[1;31m
+Start test 70[0m
+»[0m[0;34mbeforeCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.792839800
+«[0m[0;34mafterCodeSnippet{id='165913a6-f4bb-4360-86df-752c26d39d6d', code='Snippet #7', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.792839800
+[1;31m
+Start test 71[0m
+¬[0m[0;34mCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.806840300
+»[0m[0;34mbeforeCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.806840300
+«[0m[0;34mafterCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.806840300
+[1;31m
+Start test 72[0m
+»[0m[0;34mbeforeCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.816837900
+«[0m[0;34mafterCodeSnippet{id='2f43c8d6-cb4b-4adb-92f6-8bedf22f3e5d', code='Snippet #8', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.816837900
+[1;31m
+Start test 73[0m
+ø[0m[0;34mCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.831834
+≈[0m[0;34mbeforeCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.831834
+«[0m[0;34mafterCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.832834300
+[1;31m
+Start test 74[0m
+»[0m[0;34mbeforeCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.842832400
+«[0m[0;34mafterCodeSnippet{id='efeae73b-ed53-4b89-8523-bec7d85966eb', code='Snippet #9', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.843832400
+[1;31m
+Start test 75[0m
+√[0m[0;34mCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.855831700
+…[0m[0;34mbeforeCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.856833100
+»[0m[0;34mafterCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.856833100
+[1;31m
+Start test 76[0m
+…[0m[0;34mbeforeCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.865830100
+»[0m[0;34mafterCodeSnippet{id='4d3e70e3-a684-4a37-8d3f-8e1e32443897', code='Snippet #10', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.865830100
+[1;31m
+Start test 77[0m
+√[0m[0;34mCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.881825800
+…[0m[0;34mbeforeCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.881825800
+»[0m[0;34mafterCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.881825800
+[1;31m
+Start test 78[0m
+…[0m[0;34mbeforeCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.893824500
+»[0m[0;34mafterCodeSnippet{id='3215ecf3-42db-484f-95dc-66973f6ef1c6', code='Snippet #11', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.894823600
+[1;31m
+Start test 79[0m
+√[0m[0;34mCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.906824500
+…[0m[0;34mbeforeCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.906824500
+»[0m[0;34mafterCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.906824500
+[1;31m
+Start test 80[0m
+…[0m[0;34mbeforeCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.916822100
+»[0m[0;34mafterCodeSnippet{id='a51264b4-d4cd-41e3-b5fa-28383273d1ff', code='Snippet #12', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.916822100
+[1;31m
+Start test 81[0m
+√[0m[0;34mCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.929820200
+…[0m[0;34mbeforeCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.929820200
+»[0m[0;34mafterCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.929820200
+[1;31m
+Start test 82[0m
+…[0m[0;34mbeforeCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.941817800
+»[0m[0;34mafterCodeSnippet{id='7f17ed77-fdb4-41ac-a30b-4e461fd44d5a', code='Snippet #13', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.941817800
+[1;31m
+Start test 83[0m
+√[0m[0;34mCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.953815900
+…[0m[0;34mbeforeCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.953815900
+»[0m[0;34mafterCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.953815900
+[1;31m
+Start test 84[0m
+…[0m[0;34mbeforeCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.964815400
+»[0m[0;34mafterCodeSnippet{id='58fa45bb-af3d-433f-8340-4a97f896eb59', code='Snippet #14', date='2023/02/22 10:01:15', time=0, views=0, expireDate='2023/02/22 10:01:15'}2023-02-22T10:01:28.964815400
+[1;31m
+Start test 85[0m
+[1;31m
+Start test 86[0m
+[1;31m
+Start test 87[0m
+[1;31m
+Start test 88[0m
+[1;31m
+Start test 89[0m
+[1;31m
+Start test 90[0m
+[1;31m
+Start test 91[0m
+[1;31m
+Start test 92[0m
+[1;31m
+Start test 93[0m
+[1;31m
+Start test 94[0m
+[1;31m
+Start test 95[0m
+√[0m[0;34mCodeSnippet{id='56e85944-a171-473d-90a2-96fb0a92ccbf', code='Snippet #15', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.204781100
+∆[0m[0;34mbeforeCodeSnippet{id='56e85944-a171-473d-90a2-96fb0a92ccbf', code='Snippet #15', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.205777
+≈[0m[0;34mafterCodeSnippet{id='56e85944-a171-473d-90a2-96fb0a92ccbf', code='Snippet #15', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.205777
+[1;31m
+Start test 96[0m
+…[0m[0;34mbeforeCodeSnippet{id='56e85944-a171-473d-90a2-96fb0a92ccbf', code='Snippet #15', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.217774800
+»[0m[0;34mafterCodeSnippet{id='56e85944-a171-473d-90a2-96fb0a92ccbf', code='Snippet #15', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.217774800
+[1;31m
+Start test 97[0m
+¿[0m[0;34mCodeSnippet{id='3c049e83-4c72-4a5d-8beb-ac5e61d9ee82', code='Snippet #17', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.231772
+∆[0m[0;34mbeforeCodeSnippet{id='3c049e83-4c72-4a5d-8beb-ac5e61d9ee82', code='Snippet #17', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.231772
+≈[0m[0;34mafterCodeSnippet{id='3c049e83-4c72-4a5d-8beb-ac5e61d9ee82', code='Snippet #17', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.231772
+[1;31m
+Start test 98[0m
+…[0m[0;34mbeforeCodeSnippet{id='3c049e83-4c72-4a5d-8beb-ac5e61d9ee82', code='Snippet #17', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.241771200
+»[0m[0;34mafterCodeSnippet{id='3c049e83-4c72-4a5d-8beb-ac5e61d9ee82', code='Snippet #17', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.241771200
+[1;31m
+Start test 99[0m
+√[0m[0;34mCodeSnippet{id='46600b99-f650-4a31-afd2-9afe53d89d79', code='Snippet #19', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.255769400
+…[0m[0;34mbeforeCodeSnippet{id='46600b99-f650-4a31-afd2-9afe53d89d79', code='Snippet #19', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.255769400
+»[0m[0;34mafterCodeSnippet{id='46600b99-f650-4a31-afd2-9afe53d89d79', code='Snippet #19', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.256767900
+[1;31m
+Start test 100[0m
+…[0m[0;34mbeforeCodeSnippet{id='46600b99-f650-4a31-afd2-9afe53d89d79', code='Snippet #19', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.266767200
+»[0m[0;34mafterCodeSnippet{id='46600b99-f650-4a31-afd2-9afe53d89d79', code='Snippet #19', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.266767200
+[1;31m
+Start test 101[0m
+√[0m[0;34mCodeSnippet{id='79cf17fa-a9cc-4d86-92d0-495adf91fe02', code='Snippet #21', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.277765400
+…[0m[0;34mbeforeCodeSnippet{id='79cf17fa-a9cc-4d86-92d0-495adf91fe02', code='Snippet #21', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.277765400
+»[0m[0;34mafterCodeSnippet{id='79cf17fa-a9cc-4d86-92d0-495adf91fe02', code='Snippet #21', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.277765400
+[1;31m
+Start test 102[0m
+…[0m[0;34mbeforeCodeSnippet{id='79cf17fa-a9cc-4d86-92d0-495adf91fe02', code='Snippet #21', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.288763600
+»[0m[0;34mafterCodeSnippet{id='79cf17fa-a9cc-4d86-92d0-495adf91fe02', code='Snippet #21', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:29.288763600
+[1;31m
+Start test 103[0m
+´[0;34m2023-02-22 10:01:34.847  INFO 1604 --- [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+î[0m[0;34m2023-02-22 10:01:34.848  INFO 1604 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+í[0m[0;34m2023-02-22 10:01:35.116  INFO 1604 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+	[0;34m
+4[0m[0;34m  .   ____          _            __ _ _
+5[0m[0;34m /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+6[0m[0;34m( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+7[0m[0;34m \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+6[0m[0;34m  '  |____| .__|_| |_|_| |_\__, | / / / /
+5[0m[0;34m =========|_|==============|___/=/_/_/_/
+7[0m[0;34m :: Spring Boot ::                (v2.5.6)
+[0m[0;34m
+á[0m[0;34m2023-02-22 10:01:45.853  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.5 on Wuyern with PID 1604 (started by thinh in D:\Spring\Code-Sharing-Platform\Code Sharing Platform\task)
+∞[0m[0;34m2023-02-22 10:01:45.854  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+´[0m[0;34m2023-02-22 10:01:46.352  INFO 1604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ƒ[0m[0;34m2023-02-22 10:01:46.360  INFO 1604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+ú[0m[0;34m2023-02-22 10:01:46.506  INFO 1604 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+â[0m[0;34m2023-02-22 10:01:46.508  INFO 1604 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ü[0m[0;34m2023-02-22 10:01:46.509  INFO 1604 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+¢[0m[0;34m2023-02-22 10:01:46.580  INFO 1604 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+Æ[0m[0;34m2023-02-22 10:01:46.580  INFO 1604 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 720 ms
+ä[0m[0;34m2023-02-22 10:01:46.648  INFO 1604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+è[0m[0;34m2023-02-22 10:01:46.669  INFO 1604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+ø[0m[0;34m2023-02-22 10:01:46.669  INFO 1604 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:../snippets'
+©[0m[0;34m2023-02-22 10:01:46.722  INFO 1604 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+©[0m[0;34m2023-02-22 10:01:46.730  INFO 1604 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+„[0m[0;34m2023-02-22 10:01:46.829  INFO 1604 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+≥[0m[0;34m2023-02-22 10:01:46.830  INFO 1604 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ß[0m[0;34m2023-02-22 10:01:46.931  WARN 1604 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+•[0m[0;34m2023-02-22 10:01:47.192  INFO 1604 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+´[0m[0;34m2023-02-22 10:01:47.220  INFO 1604 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+µ[0m[0;34m2023-02-22 10:01:47.233  INFO 1604 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 1.426 seconds (JVM running for 45.645)
+[0m[1;31m
+Start test 104[0m
+[1;31m
+Start test 105[0m
+•[0;34m2023-02-22 10:01:47.244  INFO 1604 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ò[0m[0;34m2023-02-22 10:01:47.244  INFO 1604 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ê[0m[0;34m2023-02-22 10:01:47.246  INFO 1604 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+∆[0m[0;34mCodeSnippet{id='4a2a531d-5bca-438f-8f84-b6b4138fc660', code='Snippet #16', date='2023/02/22 10:01:29', time=100, views=20, expireDate='2023/02/22 10:03:09'}2023-02-22T10:01:47.255578500
+Ã[0m[0;34mbeforeCodeSnippet{id='4a2a531d-5bca-438f-8f84-b6b4138fc660', code='Snippet #16', date='2023/02/22 10:01:29', time=100, views=20, expireDate='2023/02/22 10:03:09'}2023-02-22T10:01:47.255578500
+À[0m[0;34mafterCodeSnippet{id='4a2a531d-5bca-438f-8f84-b6b4138fc660', code='Snippet #16', date='2023/02/22 10:01:29', time=100, views=20, expireDate='2023/02/22 10:03:09'}2023-02-22T10:01:47.255578500
+[0m[0;34mafter return 2
+[1;31m
+Start test 106[0m
+«[0;34mbeforeCodeSnippet{id='4a2a531d-5bca-438f-8f84-b6b4138fc660', code='Snippet #16', date='2023/02/22 10:01:29', time=81, views=19, expireDate='2023/02/22 10:03:09'}2023-02-22T10:01:47.301576100
+[0m[0;34mafter return 2
+«[0m[0;34mafterCodeSnippet{id='4a2a531d-5bca-438f-8f84-b6b4138fc660', code='Snippet #16', date='2023/02/22 10:01:29', time=81, views=18, expireDate='2023/02/22 10:03:09'}2023-02-22T10:01:47.303571
+[1;31m
+Start test 107[0m
+ø[0;34mCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=5, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.340566400
+…[0m[0;34mbeforeCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=5, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.340566400
+»[0m[0;34mafterCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=5, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.340566400
+[1;31m
+Start test 108[0m
+≈[0;34mbeforeCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=4, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.352563100
+≈[0m[0;34mafterCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=3, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.355563
+[1;31m
+Start test 109[0m
+ø[0;34mCodeSnippet{id='79cdc858-ce60-4974-8162-ac8d04d31ca2', code='Snippet #20', date='2023/02/22 10:01:29', time=3, views=0, expireDate='2023/02/22 10:01:32'}2023-02-22T10:01:47.369564600
+…[0m[0;34mbeforeCodeSnippet{id='79cdc858-ce60-4974-8162-ac8d04d31ca2', code='Snippet #20', date='2023/02/22 10:01:29', time=3, views=0, expireDate='2023/02/22 10:01:32'}2023-02-22T10:01:47.369564600
+»[0m[0;34mafterCodeSnippet{id='79cdc858-ce60-4974-8162-ac8d04d31ca2', code='Snippet #20', date='2023/02/22 10:01:29', time=3, views=0, expireDate='2023/02/22 10:01:32'}2023-02-22T10:01:47.369564600
+ [0m[0;34mafter return time f
+[1;31m
+Start test 110[0m
+[1;31m
+Start test 111[0m
+¡[0m[0;34mCodeSnippet{id='ea2bcf2b-38ac-4953-8999-5f1afc8d9b95', code='Snippet #22', date='2023/02/22 10:01:29', time=30, views=0, expireDate='2023/02/22 10:01:59'}2023-02-22T10:01:47.455547
+ [0m[0;34mbeforeCodeSnippet{id='ea2bcf2b-38ac-4953-8999-5f1afc8d9b95', code='Snippet #22', date='2023/02/22 10:01:29', time=30, views=0, expireDate='2023/02/22 10:01:59'}2023-02-22T10:01:47.456546900
+…[0m[0;34mafterCodeSnippet{id='ea2bcf2b-38ac-4953-8999-5f1afc8d9b95', code='Snippet #22', date='2023/02/22 10:01:29', time=30, views=0, expireDate='2023/02/22 10:01:59'}2023-02-22T10:01:47.456546900
+[1;31m
+Start test 112[0m
+«[0m[0;34mbeforeCodeSnippet{id='ea2bcf2b-38ac-4953-8999-5f1afc8d9b95', code='Snippet #22', date='2023/02/22 10:01:29', time=11, views=0, expireDate='2023/02/22 10:01:59'}2023-02-22T10:01:47.468546
+…[0m[0;34mafterCodeSnippet{id='ea2bcf2b-38ac-4953-8999-5f1afc8d9b95', code='Snippet #22', date='2023/02/22 10:01:29', time=11, views=0, expireDate='2023/02/22 10:01:59'}2023-02-22T10:01:47.469545700
+[1;31m
+Start test 113[0m
+[1;31m
+Start test 114[0m
+[1;31m
+Start test 115[0m
+ø[0;34mCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=3, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.528534400
+…[0m[0;34mbeforeCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=3, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.528534400
+»[0m[0;34mafterCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=3, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.528534400
+[1;31m
+Start test 116[0m
+ø[0;34mCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=2, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.540533100
+…[0m[0;34mbeforeCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=2, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.540533100
+»[0m[0;34mafterCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=2, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.540533100
+[1;31m
+Start test 117[0m
+≈[0;34mbeforeCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=1, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.554532200
+»[0m[0;34mafterCodeSnippet{id='a19e91b7-6b37-4c00-a5a0-e7d290216019', code='Snippet #18', date='2023/02/22 10:01:29', time=0, views=0, expireDate='2023/02/22 10:01:29'}2023-02-22T10:01:47.556530500
+[1;31m
+Start test 118[0m
+*[0;34mnull2023-02-22T10:01:47.570530600
+[1;31m
+Start test 119[0m
